@@ -1,13 +1,3 @@
-**Overview**:
-
-You have been given two full days to implement a solution to a design problem using Java, Go, or Node.js.
-
-This exercise is designed to assess your language and low level design skills, as well as your ability to write readable and concise code.
-
-Quality of modeling of entities and behavior, well readable & succinct code, test coverage and a clean & frequent commit history is key.
-
-Please keep these factors in mind as you solve the problem.
-
 **Problem Statement:**
 
 Design a Magical Arena. Every Player is defined by a “health” attribute, “strength” attribute and an “attack” attribute - all positive integers. The player dies if his health attribute touches 0.
@@ -26,28 +16,3 @@ Player B attacks and rolls die. Die roll : 4. Player A defends and rolls die. Di
 Attack damage is 4 _ 5 = 20 ; Defending strength = 5 _ 3 = 15 ; Player A health reduced by 5 to 45
 
 And so on
-
-**Rules of the Game:**
-You can use Java, Go or Node.js to implement the solution, without using any third-party libraries or frameworks ( common and essential helper libs and packages are allowed ex. math.rand() is ok).
-
-The code should NOT be hosted on GitHub or made public. Create a zip of the folder with local git history and you should provide us with the zip
-
-You should provide a README file in the repository that explains how to run the code and any other relevant information.
-
-You should provide unit tests for your solution.
-
-We expect you to commit frequently with relevant commit messages. Multiple incremental commits are valued over one all-inclusive commit.
-
-**Evaluation Criteria:**
-
-We will evaluate your solution based on the following factors:
-
-_Simple design_: Does the code have a clear and simple design? Is it easy to understand and modify?
-
-_Readability_: Is the code well-organized and easy to read? Are the naming conventions clear and consistent?
-
-_Modelling_: Are the objects and classes used in the code well-designed and appropriate for the problem at hand?
-
-_Maintainability_: Is the code easy to maintain and modify? Are there any potential areas of concern or technical debt?
-
-_Testability_: Are there comprehensive unit tests for the code? Does the code have a high degree of test coverage?
