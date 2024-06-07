@@ -1,18 +1,18 @@
 ### Instruction to run
 
-**First install the packages before running the game and test**
+**First install the packages before running the game and jest**
 
 ```bash
 npm install
 ```
 
-- **To run the game**
+**To run the game**
 
 ```bash
 node index.js
 ```
 
-- **To run test**
+**To run test**
 
 ```bsh
 npm test
