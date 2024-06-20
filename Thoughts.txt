@@ -1,0 +1,18 @@
+2 players battle in a arena.
+Every player is defined by 3 attributes
+
+Player class
+    attributes
+        Health - player dies when health reaches 0
+        Strength - player's defensive capability
+        Attack - player's offensive capability
+
+    combat
+        - player attacks in turns
+        - player with lower health starts first
+        - Each round consists attacking player rolling attacking die and defending player rolling a defending die.
+        - attack damage = attack attribute * attacking die
+        - Defense capability = strength attribute * defending die
+        - the excess damage ( if attack damage > defense caability) reduces the defender's health
+        - the game continues until one players health reaches 0
+
